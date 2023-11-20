@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jorce\Desktop\Universidad\Progra V\weather_report\build\windows\CMakeFiles\1388fcc2a847c658a9f6006dc59cf55c\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F620B94C-4985-3001-8614-38EADAF76C12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\JORCE\DESKTOP\UNIVERSIDAD\PROGRA V\WEATHER_REPORT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/jorce/Desktop/Universidad/Progra V/weather_report/windows" "-BC:/Users/jorce/Desktop/Universidad/Progra V/weather_report/build/windows" --check-stamp-file "C:/Users/jorce/Desktop/Universidad/Progra V/weather_report/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
